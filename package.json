@@ -1,0 +1,18 @@
+{
+  "name": "cypress_1_dz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:mobHead": "cypress run --browser chrome --headed --config-file cypress.mobile.config.js",
+    "test:mob": "cypress run --browser chrome --config-file cypress.mobile.config.js",
+    "test:noteHead": "cypress run --browser edge --headed --config-file cypress.laptop.config.js",
+    "test:note": "cypress run --browser edge --config-file cypress.laptop.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.16.0"
+  }
+}
